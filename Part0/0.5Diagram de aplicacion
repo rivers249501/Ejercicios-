@@ -1,0 +1,22 @@
+Start
+  |
+  V
+User accesses https://studies.cs.helsinki.fi/exampleapp/spa
+  |
+  V
+Server responds with the initial HTML page of the SPA
+  |
+  V
+Browser loads the SPA's JavaScript code
+  |
+  V
+SPA makes an AJAX request to fetch note data
+  |
+  V
+Server responds with JSON data containing notes
+  |
+  V
+SPA processes the data and dynamically displays it in the UI
+  |
+  V
+End

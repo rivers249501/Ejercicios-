@@ -1,0 +1,33 @@
+Start
+  |
+  V
+User interacts with the SPA at https://studies.cs.helsinki.fi/exampleapp/spa
+  |
+  V
+User clicks on "Create New Note"
+  |
+  V
+SPA displays a form to enter title and content of the note
+  |
+  V
+User enters title and content of the note and clicks "Save"
+  |
+  V
+SPA makes an AJAX request to the server to save the new note
+  |
+  V
+Server processes the request and saves the new note in the database
+  |
+  V
+Server responds with success confirmation (e.g., HTTP 200 status)
+  |
+  V
+SPA dynamically updates the list of notes to include the new note
+  |
+  V
+SPA displays a confirmation message to the user
+  |
+  V
+End
+
+.

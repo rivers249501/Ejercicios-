@@ -1,0 +1,16 @@
+Es un lenguaje de hojas de estilo, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML.
+
+p {
+  color: red;
+}
+Selector
+El elemento HTML en el que comienza la regla. Esta selecciona el(los) elemento(s) a dar estilo (en este caso, los elementos <p> ). Para dar estilo a un elemento diferente, solo cambia el selector.
+
+Declaración
+Una sola regla como color: red; especifica a cuál de las propiedades del elemento quieres dar estilo.
+
+Propiedades
+Maneras en las cuales puedes dar estilo a un elemento HTML. (En este caso, color es una propiedad del elemento <p> ). En CSS, seleccionas qué propiedad quieres afectar en tu regla.
+
+Valor de la propiedad
+A la derecha de la propiedad, después de los dos puntos (:), tienes el valor de la propiedad, para elegir una de las muchas posibles apariencias para una propiedad determinada (hay muchos valores para color además de red).
