@@ -1,8 +1,0 @@
-graph TD;
-    A[User types a note in the text field] --> B[User clicks the "Save" button]
-    B --> C[Browser captures the click event]
-    C --> D[Browser sends a POST request to the server]
-    D --> E[Server receives the new note data]
-    E --> F[Server saves the new note in the database]
-    F --> G[Server responds with a success message]
-    G --> H[Browser receives the response and updates the notes list]
