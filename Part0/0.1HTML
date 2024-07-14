@@ -1,0 +1,23 @@
+Introducción a HTML: HTML (HyperText Markup Language) es el lenguaje estándar para crear y estructurar páginas y aplicaciones web. Utiliza etiquetas para definir elementos dentro de un documento.
+
+Estructura Básica de un Documento HTML: Un documento HTML típico comienza con la declaración <!DOCTYPE html>, seguida de la etiqueta <html>, que contiene las etiquetas <head> y <body>.
+
+<head>: Incluye metadatos, como el título de la página (<title>), enlaces a hojas de estilo y otros datos no visibles directamente en la página.
+<body>: Contiene el contenido visible de la página, como texto, imágenes, enlaces y otros elementos multimedia.
+Etiquetas y Elementos Comunes:
+
+Encabezados: Las etiquetas <h1> a <h6> definen encabezados de diferentes niveles.
+Párrafos: La etiqueta <p> define un párrafo.
+Enlaces: La etiqueta <a> se utiliza para crear enlaces. Utiliza el atributo href para especificar la URL del enlace.
+Imágenes: La etiqueta <img> se usa para insertar imágenes y tiene atributos como src (fuente de la imagen) y alt (texto alternativo).
+Atributos: Los atributos proporcionan información adicional sobre los elementos HTML. Se colocan dentro de las etiquetas de apertura y tienen un formato de nombre-valor, como src="image.jpg" en una etiqueta de imagen.
+
+Anidamiento de Elementos: HTML permite anidar elementos dentro de otros, lo que ayuda a estructurar y organizar el contenido de manera lógica.
+
+Formateo de Texto: HTML incluye varias etiquetas para formatear texto, como <strong> para texto en negrita, <em> para texto en cursiva, y <br> para saltos de línea.
+
+Listas:
+
+Listas Ordenadas: Utilizan la etiqueta <ol> y cada ítem se define con <li>.
+Listas Desordenadas: Utilizan la etiqueta <ul> con ítems definidos por <li>.
+Tablas: Las tablas se crean con la etiqueta <table>, que contiene <tr> para filas, <th> para encabezados de columna y <td> para celdas de datos.

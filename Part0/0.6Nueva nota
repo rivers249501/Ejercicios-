@@ -1,0 +1,14 @@
+flowchart TB
+    A[Start] --User interacts with the SPA--> B(https://studies.cs.helsinki.fi/exampleapp/spa)
+    B --> C[User clicks on create new note]
+    C --> D[Display a form to enter title and content of the note]
+    D --> E[enter title and content of the note and click save]
+    E --> F[makes an ajax request to the server to save the new note]
+    F --> G[Server processes the request and saves the new note in the database]
+    G --> H[Server responds with success confirmatione.g., HTTP 200 status]
+    H --> I[SPA dynamically updates the list of notes to include the new note]
+    I --> J[SPA displays a confirmation message to the user]
+    END
+
+    https://www.mermaidchart.com/raw/c1109164-7d03-46b5-91af-3d360746b047?theme=light&version=v0.1&format=svg
+    
